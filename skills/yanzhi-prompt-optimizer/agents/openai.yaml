@@ -1,0 +1,4 @@
+interface:
+  display_name: "言之 · 提示词优化"
+  short_description: "先补齐关键信息，再优化提示词；支持借鉴提示词和成品文章的风格"
+  default_prompt: "请用 $yanzhi-prompt-optimizer 优化我的提示词，必要时先追问，并解释改动。"

@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+__pycache__/
+.venv/
+*.log
+dist/
+# Local cross-session notes are not part of the public package.
+HANDOFF.md
