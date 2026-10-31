@@ -1,6 +1,6 @@
 # 言之 · 提示词优化工具
 
-把没说出口的信息补齐，再把想法写清楚。根据项目方案实现的本地工作台与可复用 Skill（1.2）：**先追问，再优化，再解释**。
+把没说出口的信息补齐，再把想法写清楚。根据[项目方案](docs/PLAN.md)实现的本地工作台与可复用 Skill（1.2）：**先追问，再优化，再解释**。
 
 
 
@@ -198,6 +198,7 @@ node --test tests/core.test.cjs
 
 ## 分享与开发
 
+- 项目方案与同类项目调研：[docs/PLAN.md](docs/PLAN.md)。
 - 独立测试说明：[docs/TESTING.md](docs/TESTING.md)。
 - 贡献说明：[CONTRIBUTING.md](CONTRIBUTING.md)。
 - 构建不含凭据与本地交接记录的分享包：`python3 scripts/package.py`。输出到 `dist/`，其中 `yanzhi-prompt-optimizer-skill.zip` 只含 Skill 与许可证，`yanzhi-project.zip` 包含网页、Skill、说明与测试。
